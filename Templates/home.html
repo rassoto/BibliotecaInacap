@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5; url={{ url_for('login') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='barraProgreso.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Titulo.css') }}">
+    <title>Document</title>
+</head>
+<body>
+  <p class="Titulo">Bienvenido a Biblioteca Inacap. Seras redireccionado al inicio de sesion.</p>
+    <div id="progressBar">
+        <div></div>
+    </div>
+    <script src="/javascript/barraProgreso.js"></script> 
+</body>
+</html>
